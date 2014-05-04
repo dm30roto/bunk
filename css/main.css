@@ -59,6 +59,18 @@ html, body {
     margin-bottom: 15px;
     
 }
+.cal-row-head [class*="cal-cell"]:first-child, .cal-row-head [class*="cal-cell"] {
+	border-left: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;	
+	border-bottom: none;
+}
+.cal-row-head [class*="cal-cell"]:last-child {
+	border-right: 1px solid #e1e1e1;
+}
+#cal-day-box  {
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
 .cal-week-box .cal-column {
 	z-index: 0;
 }
@@ -67,6 +79,17 @@ html, body {
 }
 #cal-day-box .cal-day-hour:nth-child(even) {
 	background-color:#FFFFFF;
+}
+#cal-slide-content {
+	background-color:#bb0000;	
+}
+#cal-slide-content, #cal-slide-content:hover {
+	background-image:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+#cal-slide-content:hover {
+	background-color:#7A0000;
 }
 /**
  * Bootstrap Ovrrides

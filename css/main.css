@@ -55,9 +55,18 @@ html, body {
 **/
 #calendar {
     background-color: #FFFFFF;
-    box-shadow: 2px 2px 5px #666666;
+    /*box-shadow: 2px 2px 5px #666666;*/
     margin-bottom: 15px;
-    width: 98%;
+    
+}
+.cal-week-box .cal-column {
+	z-index: 0;
+}
+#cal-day-panel-hour {
+	margin-bottom:15px;
+}
+#cal-day-box .cal-day-hour:nth-child(even) {
+	background-color:#FFFFFF;
 }
 /**
  * Bootstrap Ovrrides

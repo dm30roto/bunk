@@ -51,9 +51,26 @@ html, body {
 }
 
 /**
+ * Calendar Styles
+**/
+#calendar {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px #666666;
+    /*margin: 0px 0px 15px 15px;*/
+    width: 98%;
+}
+/**
  * Bootstrap Ovrrides
 **/
-
+.btn-primary {
+    background-color: #bb0000;
+    border-color: #7a0000;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #8C2323;
+    border-color: #7a0000;
+}
 .navbar-default {
     background-color: #bb0000;
     color: #FFFFFF;

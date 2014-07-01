@@ -5,39 +5,39 @@ Semilight to an appropriate font-weight.
 @font-face {
     font-family: "Segoe UI";
     font-weight: 200;
-    src: local("Segoe UI Light");
+    src: local("Segoe UI Light"), url(../fonts/segoeuil.ttf);
 }
 @font-face {
     font-family: "Segoe UI";
     font-weight: 300;
-    src: local("Segoe UI Semilight");
+    src: local("Segoe UI Semilight"), url(../fonts/segoeuisl.ttf);
 }
 @font-face {
     font-family: "Segoe UI";
     font-weight: 400;
-    src: local("Segoe UI");
+    src:  local("Segoe UI"), url(../fonts/segoeui.ttf);
 }
 @font-face {
     font-family: "Segoe UI";
     font-weight: 600;
-    src: local("Segoe UI Semibold");
+    src: local("Segoe UI Semibold"), url(../fonts/segoeuisb.ttf);
 }
 @font-face {
     font-family: "Segoe UI";
     font-weight: 700;
-    src: local("Segoe UI Bold");
+    src: local("Segoe UI Bold"), url(../fonts/segoeuib.ttf);
 }
 @font-face {
     font-family: "Segoe UI";
     font-style: italic;
     font-weight: 400;
-    src: local("Segoe UI Italic");
+    src: local("Segoe UI Italic"), url(../fonts/segoeuii.ttf);;
 }
 @font-face {
     font-family: "Segoe UI";
     font-style: italic;
     font-weight: 700;
-    src: local("Segoe UI Bold Italic");
+	src: local("Segoe UI Bold Italic"), url(../fonts/seguisbi.ttf);
 }
 
 html, body {
@@ -64,9 +64,9 @@ html, body {
 	border-top: 1px solid #e1e1e1;	
 	border-bottom: none;
 }
-.cal-row-head [class*="cal-cell"]:last-child {
+/*.cal-row-head [class*="cal-cell"]:last-child {
 	border-right: 1px solid #e1e1e1;
-}
+}*/
 #cal-day-box  {
 	border-left: 1px solid #e1e1e1;
 	border-right: 1px solid #e1e1e1;
@@ -129,15 +129,19 @@ html, body {
     margin-bottom: -1px;
     background-color: #666666;
     color: #FFFFFF;
+	font-weight:lighter;
 }
 .list-group h4 a {
     font-size: 16px;
     color:#FCFCFC;
 }
-.list-group {
+/*.list-group {
     box-shadow: 2px 2px 5px #666666;
-}
+}*/
 .list-group-item:first-child, .list-group-item:last-child {
     border-radius:0px;
+}
+.badge {
+	font-weight:lighter;
 }
 

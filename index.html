@@ -67,7 +67,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="list-group">
-                <h4>Chores <a href="#" class="pull-right"><i class="fa fa-plus-circle fa-fw"></i> Add new chore</a></h4>
+                <h4>Chores <a href="#" class="pull-right" data-toggle="modal" data-target="#addChoreModal"><i class="fa fa-plus-circle fa-fw"></i> Add new chore</a></h4>
                 <a href="#" class="list-group-item"><span class="badge alert-danger">2</span>Take out the trash</a>
                 <a href="#" class="list-group-item"><span class="badge alert-warning">7</span>Clean up the dishes</a>
                 <a href="#" class="list-group-item"><span class="badge alert-warning">7</span>Vacuum the living room</a>
@@ -103,10 +103,29 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" id="addChoreModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Add Chore</h4>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary saveChoreBtn">Save Chore</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- End main-container -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/parse-1.2.19.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>

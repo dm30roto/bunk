@@ -4,5 +4,7 @@
 <file name="jquery-1.11.1.min.js" server="droto.net" local="130436507667182284" remote="130436544600000000" Dst="2" />
 <file name="underscore-min.js" server="droto.net" local="130436507667262332" remote="130436544600000000" Dst="2" />
 <file name="bootstrap.js" server="droto.net" local="130436507665534565" remote="130436544600000000" Dst="2" />
-<file name="app.js" server="droto.net" local="130436507665434494" remote="130436544600000000" Dst="2" />
+<file name="app.js" server="droto.net" local="130492673172800123" remote="130492708800000000" Dst="2" />
+<file name="parse-1.2.19.min.js" server="droto.net" local="130492640790579941" remote="130492684800000000" Dst="2" />
+<file name="index.js" server="droto.net" local="130492676176053706" remote="130492712400000000" Dst="2" />
 </dwsync>

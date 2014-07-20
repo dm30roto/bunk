@@ -15,6 +15,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
     <!-- App styles -->
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/welcome.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,7 +25,61 @@
     <![endif]-->
   </head>
   <body>
-    <div class="glass"></div>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="imgs/bunkLogo.jpg" /></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email"></li>
+            <li><input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password"></li>
+            <li><input type="checkbox"> Remember me</li>
+            <li><button type="submit" class="btn btn-default">Sign in</button></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <!-- Start main-container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                <h1>Welcome to bunk.</h1>
+                <h3>Connect with your friends — and other fascinating people. Get in-the-moment updates on the things that interest you. And watch events unfold, in real time, from every angle.</h3>
+            </div>
+            <div class="col-xs-6">
+                <div class="row">
+                    <form class="form-horizontal" role="form">
+                      <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                        <div class="col-sm-8">
+                          <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        </div>
+                        <div class="col-sm-2">
+                          <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> Remember me
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <!-- End main-container -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
